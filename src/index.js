@@ -6,7 +6,6 @@ import ReactDOM from 'react-dom';
 
 
 
-//injecting data 
 const welcome = 'Rezervasyon Uygulaması'
 const subtitle = 'Yeni Rezervasyon Ekle'
 const title = 'Rezervasyonlar'
@@ -18,7 +17,6 @@ const datedayandhour ='Rezervasyon Günü ve Saati'
 const note = 'Eklemek İstediği Not'
 const addreservation = 'Rezervasyon Ekle'
  
-//Header component
 const Header = ()=> (
 <header >
    <div className='header-wrapper'>
@@ -78,7 +76,6 @@ const Form = ()=> {
       </div>
     ));
 
-    // Bu rezervasyonları göstermek için bir div döndürün
     return (
       <div className="reservation-list">
         <h2>Rezervasyonlar</h2>
